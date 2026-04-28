@@ -95,7 +95,7 @@ An end-to-end data analysis project exploring hospital admission patterns across
 ## Power BI Dashboard — 3 Pages
 
 ### Page 1 — Seasonal Overview
-![Hospital Admission Trend Analysis](IMAGES/DEMOGRAPHICS DASHBOARD.png)
+![Hospital Admissions Trend Analysis](IMAGES/DEMOGRAPHICS DASHBOARD.png)
 
 Answers: *When do admissions spike and for which conditions?*
 - KPI Cards: Total Admissions, Busiest Month, Avg Length of Stay
