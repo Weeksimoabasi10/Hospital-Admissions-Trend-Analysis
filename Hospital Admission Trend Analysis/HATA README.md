@@ -10,7 +10,6 @@ An end-to-end data analysis project exploring hospital admission patterns across
 |---|---|
 | **SQL** | Data exploration, cleaning, and 4-phase analysis |
 | **Power BI** | Interactive 3-page dashboard and data visualization |
-| **Python** | Synthetic dataset generation |
 
 ---
 
@@ -24,26 +23,6 @@ An end-to-end data analysis project exploring hospital admission patterns across
 - **8 condition categories:** Respiratory, Cardiovascular, Gastrointestinal, Infectious Disease, Injury & Trauma, Maternal & Child, Mental Health, Urological
 - **40 unique medical conditions** with realistic seasonal weighting
 
-### Dataset Columns
-| Column | Description |
-|---|---|
-| admission_id | Unique record identifier |
-| hospital_id | Hospital code |
-| hospital_name | Full hospital name |
-| region | North, South, or East |
-| admission_date | Date of admission |
-| discharge_date | Date of discharge |
-| month / month_num | Month name and number |
-| quarter | Q1–Q4 |
-| season | Nigeria-specific season label |
-| year | 2021, 2022, or 2023 |
-| condition | Specific medical condition |
-| condition_category | Condition grouping (e.g. Respiratory) |
-| admission_type | Emergency, Urgent, or Elective |
-| gender | Male or Female |
-| age | Patient age (0–89) |
-| age_group | Child, Young Adult, Adult, Middle-Aged, Senior |
-| length_of_stay | Number of days admitted |
 
 ---
 
@@ -178,7 +157,6 @@ hospital-admission-seasonal-trends/
 └── README.md
 ```
 
----
 
 ## About This Project
 This project was built as part of a structured data analytics portfolio targeting real-world business domains. It simulates an operational analytics use case for hospital administrators, public health officials, and healthcare policymakers in Nigeria.
